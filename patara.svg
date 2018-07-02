@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="235px" height="76px" viewBox="0 0 235 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2">
+            <g id="Group-3" transform="translate(2.000000, 3.000000)">
+                <g id="Group" transform="translate(106.000000, 0.000000)" stroke="#000000" stroke-width="5">
+                    <path d="M4.54394531,15.7581042 L4.54394531,60.3592097" id="Line" stroke-linecap="square"></path>
+                    <path d="M18.1757813,25.8532609 L18.1757813,60.8706622" id="Line" stroke-linecap="square"></path>
+                    <path d="M33.3222656,25.8532609 L33.3222656,60.8706622" id="Line" stroke-linecap="square"></path>
+                    <path d="M5.5,14.5 L27.2636719,3.95652174" id="Line" stroke-linecap="square"></path>
+                    <path d="M33.3600633,64.5652174 L4.5,64.5652174" id="Line" stroke-linecap="square"></path>
+                    <path d="M44.9638672,0.946289063 C39.2664923,0.469973284 36.3958642,2.35853321 36.3519828,6.61196883 C36.3081013,10.8654045 39.1787295,12.7711154 44.9638672,12.3291016" id="Path-2"></path>
+                </g>
+                <polygon id="Rectangle-6" fill="#000000" transform="translate(210.565699, 34.781089) rotate(30.000000) translate(-210.565699, -34.781089) " points="183.065699 31.2810889 234.173483 31.2810889 238.065699 38.2810889 186.957914 38.2810889"></polygon>
+                <g id="Group-2" stroke="#000000" stroke-width="5">
+                    <path d="M16.023927,8.19723298 C13.3088636,25.3632752 -0.095256095,48.7969221 5.82504643,60.8907831 C9.02845973,67.4346438 16.3205309,70.0304725 30.8382427,69.9997304 C45.3559545,69.9689883 53.1210178,67.882882 55.4041697,60.0991073 C60.0496974,44.2614663 40.2670467,22.1594986 44.2834729,4.00344849" id="Path-6"></path>
+                    <path d="M45.5556641,16.0849609 C52.2935901,12.3892212 54.9492187,16.2854202 56.2548828,7.88782729 C57.5605469,-0.509765625 47.1386719,0.844726563 47.1386719,0.844726563 C47.1386719,0.844726563 21.5719772,-0.857562223 6.15185547,0.844726563 C1.07080078,1.40564447 0.316437997,5.39295499 1.07080078,9.08935547 C1.82545328,12.7871756 5.77377053,15.2603755 13.3457031,13.1640625 L15.8769531,7.40185547" id="Path-7"></path>
+                    <path d="M11.5263547,22.5625 L53.5,46.5" id="Path-4"></path>
+                    <path d="M7.75335566,39.8560181 L51.8194581,65.6875" id="Path-5"></path>
+                    <path d="M21.5,29.5 L18.7215517,47" id="Path-8"></path>
+                    <path d="M44.5,42.5 L41.7461823,58.5" id="Path-10"></path>
+                    <path d="M32.5,35.5 L30.233867,52.75" id="Path-9"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
