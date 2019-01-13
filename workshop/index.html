@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Design Thinking for Blockchains is a one-day workshop for exploring decentralization opportunities in any domain in a creative and collaborative way.">
+  <meta name="author" content="Patara Labs">
+
+  <title>Design Thinking for Blockchains | Patara.io</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <script type="text/javascript">
+    e1 = "@patara";
+    e2 = "engin";
+    e3 = ".io";
+    email_link = "mailto:" + e2 + e1 + e3;
+  </script>
+
+  <style>
+
+    body {
+      padding-top: 54px;
+    }
+
+    @media (min-width: 992px) {
+      body {
+        padding-top: 56px;
+      }
+    }
+
+    .carousel-item {
+      height: 65vh;
+      min-height: 300px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    .portfolio-item {
+      margin-bottom: 30px;
+    }
+
+    .new-carousel {
+        min-height: 200px;
+        height: auto;
+      }
+
+      .new-carousel .carousel-caption {
+        color: black;
+      }
+
+      .new-carousel.carousel-item {
+        background: #EEE;
+      }
+        .navbar-nav-svg {
+            display: inline-block;
+            width: 1rem;
+            height: 1rem;
+            vertical-align: text-top;
+        }
+    </style>
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Patara / Design Thinking for Blockchains</a>
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/PataraLabs/decentralization-method-sheet" target="_blank" rel="noopener">Version
+            0.1</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link p-2" href="http://github.com/pataralabs" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 499.36" focusable="false">
+              <title>GitHub</title>
+              <path d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"
+                fill="currentColor" fill-rule="evenodd"></path>
+            </svg>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/pataralabs" target="_blank" aria-label="Twitter">
+            <svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 416.32" focusable="false">
+              <title>Twitter</title>
+              <path d="M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92"
+                fill="currentColor"></path>
+            </svg>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://medium.com/patara" target="_blank" aria-label="Medium">
+            <svg class="navbar-nav-svg" aria-hidden="true" data-prefix="fab" data-icon="medium-m" role="img" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512">
+              <path fill="currentColor" d="M71.5 142.3c.6-5.9-1.7-11.8-6.1-15.8L20.3 72.1V64h140.2l108.4 237.7L364.2 64h133.7v8.1l-38.6 37c-3.3 2.5-5 6.7-4.3 10.8v272c-.7 4.1 1 8.3 4.3 10.8l37.7 37v8.1H307.3v-8.1l39.1-37.9c3.8-3.8 3.8-5 3.8-10.8V171.2L241.5 447.1h-14.7L100.4 171.2v184.9c-1.1 7.8 1.5 15.6 7 21.2l50.8 61.6v8.1h-144v-8L65 377.3c5.4-5.6 7.9-13.5 6.5-21.2V142.3z"></path>
+            </svg>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2" href="http://designblockchains.slack.com/" target="_blank" rel="noopener" aria-label="Slack">
+            <svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" focusable="false">
+              <title>Slack</title>
+              <path fill="currentColor" d="M210.787 234.832l68.31-22.883 22.1 65.977-68.309 22.882z"></path>
+              <path d="M490.54 185.6C437.7 9.59 361.6-31.34 185.6 21.46S-31.3 150.4 21.46 326.4 150.4 543.3 326.4 490.54 543.34 361.6 490.54 185.6zM401.7 299.8l-33.15 11.05 11.46 34.38c4.5 13.92-2.87 29.06-16.78 33.56-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18l-11.46-34.38-68.36 22.92 11.46 34.38c4.5 13.92-2.87 29.06-16.78 33.56-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18l-11.46-34.43-33.15 11.05c-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18c-4.5-13.92 2.87-29.06 16.78-33.56l33.12-11.03-22.1-65.9-33.15 11.05c-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18c-4.48-13.93 2.89-29.07 16.81-33.58l33.15-11.05-11.46-34.38c-4.5-13.92 2.87-29.06 16.78-33.56s29.06 2.87 33.56 16.78l11.46 34.38 68.36-22.92-11.46-34.38c-4.5-13.92 2.87-29.06 16.78-33.56s29.06 2.87 33.56 16.78l11.47 34.42 33.15-11.05c13.92-4.5 29.06 2.87 33.56 16.78s-2.87 29.06-16.78 33.56L329.7 194.6l22.1 65.9 33.15-11.05c13.92-4.5 29.06 2.87 33.56 16.78s-2.88 29.07-16.81 33.57z"
+                fill="currentColor"></path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Carousel -->
+  <header>
+    <div id="dtfbIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#dtfbIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#dtfbIndicators" data-slide-to="1"></li>
+        <li data-target="#dtfbIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+
+        <div class="container">
+          <div class="carousel-caption text-left pl-4 pr-4 ml-4 mr-4 mb-4" style="left:auto; right:auto; background-color:rgba(0, 0, 0, 0.5);">
+            <h3>A creative and collaborative approach to make protocol design a more inclusive activity</h3>
+          </div>
+        </div>
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('img/1.jpg')">
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/2.jpg')">
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/3.jpg')">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#dtfbIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#dtfbIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+  <!-- /. Carousel -->
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <h3 class="mt-4 pl-5 pr-5 pt-5">
+      Design Thinking for Blockchains is a one-day workshop for exploring<br /> decentralization opportunities in any
+      domain
+      in a creative and collaborative way.
+    </h3>
+
+    <!-- Section -->
+    <div class="row p-5">
+      <div class="col-lg-6 col-sm-6">
+        <h4 class="card-title">
+          Who is it for?
+        </h4>
+        <p class="card-text">We designed the workshop for anyone who is interested in getting creative with
+          decentralization as a system design exercise. The more diverse backgrounds, the better. </p>
+      </div>
+
+      <div class="col-lg-6 col-sm-6">
+        <h4 class="card-title">
+          Why does it matter?
+        </h4>
+        <p class="card-text">Considering blockchains will have a significant impact on all walks of life, protocol
+          design should be a multi-disciplinary activity and include a variety of inputs in the conception stage to
+          prevent creator biases baked in platforms. </p>
+      </div>
+    </div>
+    <!-- /.row -->
+
+
+    <!-- Divider -->
+    <div class="row pb-1 pt-3 mb-5" style="background:#fafafa">
+      <div class=" col-md-12">
+        <p class="text-center">
+          <a href="https://medium.com/patara/design-thinking-for-blockchains-ded1d6cabe53" target="_blank">Read our
+            Medium post for more detail</a>
+        </p>
+      </div>
+    </div>
+    <!-- /. Divider -->
+
+
+    <!-- Method Sheet and other boxes-->
+    <div class="row">
+      <div class="col-lg-6 col-sm-6">
+        <div class="card h-100 p-5">
+          <a href="http://bit.ly/decentralization-method-sheet" target="_blank" title="Click to download"><img class="card-img-top"
+              src="img/method-sheet.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              Decentralization method sheet
+            </h4>
+            <p class="card-text">
+              A new method for exploring decentralization opportunities that combine elements of design thinking,
+              network science, and crypto economics.
+            </p>
+            <a href="http://bit.ly/decentralization-method-sheet" target="_blank" class="btn btn-dark">Download</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-6">
+        <div class="card p-5" style="border:0;background:#f2f2f2">
+          <div class=" card-body">
+            <h4 class="card-title">
+              Upcoming Workshops
+            </h4>
+            <br />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Oct 2018</strong> <a href="https://web3summit.com/program/hackerspace/"
+                  target="_blank">Web3 Summit</a>, Berlin</li>
+              <li class="list-group-item"><strong>Nov 2018</strong> <a href="https://bctr.org/en/" target="_blank">Blockchain
+                  Turkey</a>, Istanbul</li>
+            </ul>
+            <p class="card-text mt-5">
+              Interested in organizing a workshop with us?
+            </p>
+            <button class="btn btn-dark" role="button" onClick="this.onClick=window.open(email_link);" href="#">Contact
+              us</button>
+          </div>
+        </div>
+
+        <div class="card-body align-bottom">
+          <h4>Join our email list </h4>
+          <p>
+            We will be sharing updates and upcoming workshops</p>
+          <!-- Begin Mailchimp Signup Form -->
+          <form action="https://patara.us18.list-manage.com/subscribe/post?u=ffbabddc1b5e2e528eea86a6f&amp;id=b1a2b88328"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline"
+            target="_blank" novalidate>
+
+            <div class="form-group mb-2 mr-2">
+              <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="email@company.com">
+            </div>
+
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ffbabddc1b5e2e528eea86a6f_b1a2b88328"
+                tabindex="-1" value=""></div>
+            <input type="submit" class="btn btn-dark mb-2" value="Sign up">
+          </form>
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- /.row -->
+    <!-- /. Method Sheet and other boxes-->
+
+    <!-- Responses from participants -->
+    <div class="row pt-5 pb-3 mt-4">
+      <div class=" col-md-12">
+        <h5 class="text-center">
+          Responses from participants
+        </h5>
+      </div>
+    </div>
+    <!-- /.row -->
+
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Responses Carousel -->
+  <div id="dtfbIndicators2" class="carousel slide mb-5" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#dtfbIndicators2" data-slide-to="0" class="active"></li>
+      <li data-target="#dtfbIndicators2" data-slide-to="1"></li>
+      <li data-target="#dtfbIndicators2" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item new-carousel active">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="w-50 mx-auto">"Excellent facilitation! They distilled a very technical subject into a specific
+            framework that helped me think about practical applications."</p>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item new-carousel">
+
+        <div class="carousel-caption d-none d-md-block">
+          <p class="w-50 mx-auto">"Very impressed by the level of preparation, care, and knowledge. It truly inspired
+            and stimulated my interest to learn more."</p>
+
+        </div>
+
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item new-carousel">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="w-50 mx-auto">"Loved the workshop! Really enjoyed the group work and walkthrough for the
+            hospitality domain."</p>
+
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#dtfbIndicators2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#dtfbIndicators2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- /. Responses Carousel -->
+
+
+  <!-- Shameless Spacer -->
+  <div class="row m-5">
+    <div class="col-lg-12"></div>
+  </div>
+  <!-- /. Shameless Spacer -->
+
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark mt-5">
+    <div class="container">
+      <p class="m-0 text-center text-white">
+        <a href="https://patara.io" style="color:#eee">Patara Labs</a> — 2018
+      </p>
+
+      <nav class="navbar-expand-lg navbar-dark bg-dark">
+        <ul class="navbar-nav row justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link p-2" href="http://github.com/pataralabs" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 499.36" focusable="false">
+                <title>GitHub</title>
+                <path d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"
+                  fill="currentColor" fill-rule="evenodd"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/pataralabs" target="_blank" aria-label="Twitter">
+              <svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 416.32" focusable="false">
+                <title>Twitter</title>
+                <path d="M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92"
+                  fill="currentColor"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://medium.com/patara" target="_blank" aria-label="Medium">
+              <svg class="navbar-nav-svg" aria-hidden="true" data-prefix="fab" data-icon="medium-m" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path fill="currentColor" d="M71.5 142.3c.6-5.9-1.7-11.8-6.1-15.8L20.3 72.1V64h140.2l108.4 237.7L364.2 64h133.7v8.1l-38.6 37c-3.3 2.5-5 6.7-4.3 10.8v272c-.7 4.1 1 8.3 4.3 10.8l37.7 37v8.1H307.3v-8.1l39.1-37.9c3.8-3.8 3.8-5 3.8-10.8V171.2L241.5 447.1h-14.7L100.4 171.2v184.9c-1.1 7.8 1.5 15.6 7 21.2l50.8 61.6v8.1h-144v-8L65 377.3c5.4-5.6 7.9-13.5 6.5-21.2V142.3z"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2" href="http://designblockchains.slack.com/" target="_blank" rel="noopener"
+              aria-label="Slack">
+              <svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" focusable="false">
+                <title>Slack</title>
+                <path fill="currentColor" d="M210.787 234.832l68.31-22.883 22.1 65.977-68.309 22.882z"></path>
+                <path d="M490.54 185.6C437.7 9.59 361.6-31.34 185.6 21.46S-31.3 150.4 21.46 326.4 150.4 543.3 326.4 490.54 543.34 361.6 490.54 185.6zM401.7 299.8l-33.15 11.05 11.46 34.38c4.5 13.92-2.87 29.06-16.78 33.56-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18l-11.46-34.38-68.36 22.92 11.46 34.38c4.5 13.92-2.87 29.06-16.78 33.56-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18l-11.46-34.43-33.15 11.05c-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18c-4.5-13.92 2.87-29.06 16.78-33.56l33.12-11.03-22.1-65.9-33.15 11.05c-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18c-4.48-13.93 2.89-29.07 16.81-33.58l33.15-11.05-11.46-34.38c-4.5-13.92 2.87-29.06 16.78-33.56s29.06 2.87 33.56 16.78l11.46 34.38 68.36-22.92-11.46-34.38c-4.5-13.92 2.87-29.06 16.78-33.56s29.06 2.87 33.56 16.78l11.47 34.42 33.15-11.05c13.92-4.5 29.06 2.87 33.56 16.78s-2.87 29.06-16.78 33.56L329.7 194.6l22.1 65.9 33.15-11.05c13.92-4.5 29.06 2.87 33.56 16.78s-2.88 29.07-16.81 33.57z"
+                  fill="currentColor"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
