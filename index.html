@@ -6,7 +6,7 @@
     <meta name="description" content="Patara Labs, Inc." />
     <script src="https://instant.0x.org/instant.js"></script>
     <style type="text/css">
-    	body {
+    	html, body {
             font-size: 1rem;
             font-family: Monaco, monospace;
             line-height: 1.5;
@@ -49,6 +49,14 @@
             font-weight: normal !important;
             display: block;
         }
+        button {
+            font-size: 1rem;
+            font-family: Monaco, monospace !important;
+            padding: 0.2rem 1rem;
+            background: #FFF;
+            border: 1px solid #000000;
+        }
+
     </style>
     <title>
         Patara Labs
@@ -56,7 +64,7 @@
 </head>
 <body>
 <script type='text/javascript'>
-    function renderZeroExInstant() {
+    function renderZeroExInstant(e) {
         zeroExInstant.render(
             {
                 orderSource: 'https://api.radarrelay.com/0x/v2/',
@@ -67,7 +75,7 @@
 </script>
 <div class="info">
 	<p>
-        <a href="#" onClick="renderZeroExInstant()"><img src="patara.svg" width="220" /></a>
+        <img src="patara.svg" width="220" />
     </p>
     <h1>
         Patara Labs
@@ -96,7 +104,9 @@
             </form>
         </div>
     </p>
-
+    <p>
+        <button onClick="renderZeroExInstant()">Buy Tokens</button>
+    </p>
 </div>
 </body>
 </html>
